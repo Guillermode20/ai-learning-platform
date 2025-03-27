@@ -1,0 +1,284 @@
+[
+  {
+    "question_number": "01.1",
+    "question": "Give the three structural features found in all virus particles and describe the function of one of these features.",
+    "answer": "1. Genetic material, capsid and attachment protein;\n2. Genetic material codes for (viral) protein OR Capsid protects the genetic material/RNA/DNA OR Attachment protein bind to receptors (on cell);",
+    "total_marks": 2,
+    "AO1": 2
+  },
+  {
+    "question_number": "01.2",
+    "question": "Explain why viruses are described as acellular and non-living.",
+    "answer": "1. (Acellular) no cell(-surface) membrane OR Not made of cells;\n2. (Non-living) have no metabolism/metabolic reactions; OR Cannot (independently) move/respire/replicate/excrete OR (Have) no nutrition;",
+    "total_marks": 2,
+    "AO1": 2
+  },
+  {
+    "question_number": "01.3",
+    "question": "Give one reason why antibiotics are not effective against viruses.",
+    "answer": "Do not have bacterial structures/enzymes OR Do not have metabolic processes OR Do not have a cell wall/murein;",
+    "total_marks": 1,
+    "AO1": 1
+  },
+  {
+    "question_number": "02.1",
+    "question": "Chitin is a polysaccharide. The chitin monomer is a ẞ-glucose molecule with one OH group replaced by an NHCOCH3 group. NHCOCH3 can be represented by N(Ac).\nFigure 1 shows the monomer that forms chitin and the chitin polymer.\nUse Figure 1 to describe three ways the structure of chitin is similar to the structure of cellulose.",
+    "question_context": "",
+    "answer": "1. (Alternate) monomers/glucoses are flipped/upside down/rotated (by 180°);\n2. (Joined by) glycosidic bonds;\n3. (Forms) straight/linear/unbranched (chains/ molecules);",
+    "total_marks": 3,
+    "AO2": 3
+  },
+  {
+    "question_number": "02.2",
+    "question": "Chitin keeps the tracheae open in the tracheal system of gas exchange in an insect. Gas exchange does not occur in the tracheae.\n\nExplain the importance of one adaptation of the gas exchange surface in the tracheal system of an insect.",
+    "answer": "EITHER\n1. Tracheole (wall) thin/one cell thick;\n2. (So) rapid diffusion (into cells)\nOR\n(So) short diffusion pathway/distance;\nOR\n3. Tracheoles enter/supply tissues/muscle fibres;\n4. (So) diffusion direct into cells\nOR\n(So) short diffusion pathway/distance OR (So) rapid diffusion (into cells);\nOR\n5. Tracheoles are highly branched;\n6. (So) short diffusion distance/pathway OR (So) large surface area for (rapid) diffusion;",
+    "total_marks": 2,
+    "AO1": 2
+  },
+  {
+    "question_number": "02.3",
+    "question": "Lignin is a polymer found in the walls of xylem vessels in plants. Lignin keeps the xylem vessel open as a continuous tube.\nExplain the importance of the xylem being kept open as a continuous tube.",
+    "answer": "1. (Allows unbroken) water column OR (So) no barrier to (water) movement;\n2. Cohesion from H bonds between (all) water (molecules) OR Cohesion from (polar) attraction between (all) water (molecules);\n3. Evaporation/transpiration creates tension (in column) OR Water moves from xylem (into cells) creates tension OR (To) pull up water creates tension (in xylem);",
+    "total_marks": 3,
+    "AO1": 3
+  },
+  {
+    "question_number": "03.1",
+    "question": "The human disease, malaria, is caused by infection with a single-celled eukaryotic organism.\nFigure 2 shows a diagram of Plasmodium vivax, one of the species that can cause malaria.\nOther than the Golgi apparatus, name one structure in Figure 2 which shows that P. vivax is a eukaryote.",
+    "question_context": "",
+    "answer": "Membrane-bound organelle(s) OR Mitochondrion/mitochondria OR Vesicle(s)/lysosomes OR (Rough) endoplasmic reticulum OR Nucleus/(double) nuclear membrane/pore(s)/ nuclear envelope;",
+    "total_marks": 1,
+    "AO1": 1
+  },
+  {
+    "question_number": "03.2",
+    "question": "Describe two functions of the Golgi apparatus in a eukaryotic cell.",
+    "answer": "1. Modify/package/transport proteins OR Make/transport glycoproteins;\n2. Modify/package/transport lipids OR Make/transport glycolipids;\n3. Forms/releases vesicles/lysosomes;",
+    "total_marks": 2,
+    "AO1": 2
+  },
+  {
+    "question_number": "03.3",
+    "question": "P. vivax evolved from a common ancestor in Africa. As humans migrated around the world, new strains of P. vivax evolved.\nP. vivax is now extremely rare in Africa but there are several different strains of P. vivax in other parts of the world.\nFigure 3 shows a phylogenetic diagram of the evolution of these different strains.\nWhat does Figure 3 suggest is the order of human migration out of Africa?",
+    "question_context": "",
+    "answer": "India, Europe, East Asia, Central America, South America",
+    "total_marks": 1,
+    "AO3": 1
+  },
+  {
+    "question_number": "03.4",
+    "question": "There are an estimated 229 million cases of human malaria worldwide per year. 94% of these cases are found in Africa, but are not caused by P. vivax.\nP. vivax does cause 61% of the cases of human malaria outside Africa.\n\nUse this information to calculate the number of cases worldwide caused by P. vivax each year.",
+    "answer": "Correct answer of 8.3814 million/8 381 400/8.3814 x 106 OR 8.4 million/8400000/8.4 x 106;",
+    "total_marks": 1,
+    "AO2": 1
+  },
+  {
+    "question_number": "03.5",
+    "question": "In Africa today, most of the human population are resistant to malaria caused by P. vivax.\n\nUse your knowledge of natural selection to explain why this resistance is so common in Africa.",
+    "answer": "1. Mutation produced allele;\n2. Those with allele/resistance less likely to/do not get malaria/P vivax OR Those with allele/resistance survive malaria/P vivax;\n3. (So more likely to) reproduce and pass on the allele;\n4. (Over generations) allele frequency increases;",
+    "total_marks": 4,
+    "AO1": 2,
+    "AO2": 2
+  },
+  {
+    "question_number": "04.1",
+    "question": "Some hospital patients suffer from diarrhoea caused by infection with the bacterium Clostridium difficile. The C. difficile bacteria release toxins. These toxins cause the diarrhoea.\n\nThe toxins damage the cells lining the ileum, causing them to lose their microvilli. The damage to the cells reduces the absorption of the products of digestion and reduces the absorption of water, resulting in diarrhoea.\n\nExplain why the damage to the cells lining the ileum reduces absorption of the products of digestion and why this reduces absorption of water.",
+    "answer": "1. Reduced surface area OR Fewer co-transport/carrier/channel proteins;\n2. Decreases water potential in ileum/lumen OR Increases water potential in cells;\n3. (So) water moves out of cells/into ileum by osmosis OR (So) less/no water moves into cells/out of ileum by osmosis;",
+    "total_marks": 3,
+    "AO2": 3
+  },
+  {
+    "question_number": "04.2",
+    "question": "Not all patients in hospital with C. difficile develop diarrhoea.\nScientists measured the anti-toxin antibody concentration in hospital patients with and without C. difficile infection.\nThey measured the anti-toxin antibody concentration four times:\n• on admission to hospital (day 0)\n• on day 3\n• on day 6\n• on the day the patient left the hospital.\nFigure 4 shows the scientists' results.\nThe scientists suggest that the anti-toxin antibody could be given to some patients as a form of passive immunity.\n\nUse Figure 4 to suggest how this passive immunity would work and which patients should be offered this anti-toxin antibody.",
+    "question_context": "",
+    "answer": "1. Anti-toxins/antibodies cause phagocytosis/ destruction/agglutination/neutralisation (of toxin);\n2. Anti-toxin/antibody prevents/reduces (chance of) diarrhoea OR (C difficile) patients with no diarrhoea have high(est) (concentration of) anti-toxin/antibody OR (C difficile) patients with diarrhoea have low(est) (concentration of) anti-toxin/antibody;\n3. (Offered to C. difficile) patients with diarrhoea OR (Offered to) patients with low (concentrations of) anti-toxin/antibody;",
+    "total_marks": 3,
+    "AO1": 1,
+    "AO2": 2
+  },
+  {
+    "question_number": "04.3",
+    "question": "To be used as passive immunity treatment, the anti-toxin antibody would be injected. If it was given by mouth, it would be digested.\nDescribe how the anti-toxin antibody would be digested.",
+    "answer": "1. Peptide bonds hydrolysed;\n2. Endopeptidase(s) break internal (peptide) bonds;\n3. Exopeptidase(s) break terminal (peptide) bonds;\n4. (Membrane-bound) dipeptidase(s) break dipeptides to amino acids;",
+    "total_marks": 3,
+    "AO1": 3
+  },
+  {
+    "question_number": "05.1",
+    "question": "A student investigated the use of cinnamon oil as an antimicrobial substance. She investigated the effect of cinnamon oil on the growth of five different bacterial cultures grown on agar plates.\n\nThe student added 100 mm³ of each bacterial culture from its glass bottle onto a separate agar plate. She spread each bacterial culture evenly over the agar using a spreader.\nDescribe the aseptic techniques she should use.",
+    "answer": "1. Wash hands with soap OR Disinfect surfaces;\n2. Use sterile pipette/syringe (to transfer bacteria);\n3. (Remove bottle lid and) flame neck of bottle;\n4. Lift lid of (agar) plate at an angle;\n5. Work close to upward air movement;\n6. Use sterile spreader;\n7. Place pipette/spreader into disinfectant (immediately after use);",
+    "total_marks": 3,
+    "AO1": 3
+  },
+  {
+    "question_number": "05.2",
+    "question": "On each agar plate, the student cut a well (a hole) in the agar.\nThe well had a diameter of 6 mm. The student added 50 mm³ of cinnamon oil into the well.\nCalculate the minimum depth of the well to allow the addition of 50 mm³ of cinnamon oil.\nUse the following equation in your calculation:\nVolume of a cylinder = πr² × | \nUse 3.14 as the value for π.",
+    "answer": "Correct answer in range of 1.768 to 1.8 OR 2 = 2 marks\nAccept for 1 mark, evidence of 28/28.26/28.3 (correct calculation, π x 32) OR 28.27433 (correct calculation using ㅠ value on calculator) OR 0.4423 (correct calculation using diameter rather than radius) OR 1.76 (correct calculation but incorrectly rounded);",
+    "total_marks": 2,
+    "AO3": 2
+  },
+  {
+    "question_number": "05.3",
+    "question": "Suggest exactly what the student added to the wells to get the positive control and negative control results.",
+    "answer": "(Positive control) 1. Antimicrobial/ antibacterial (solution) OR Antibiotic OR Antiseptic/disinfectant;\n(Negative control) 2. (Sterile) water OR Oil (without cinnamon);",
+    "total_marks": 2,
+    "AO3": 2
+  },
+  {
+    "question_number": "05.4",
+    "question": "Complete Table 1 to show the median and mean diameters.",
+    "answer": "Median for all cultures 16 12\nMean for all cultures 17 13\nAll four numbers correct;",
+    "total_marks": 1,
+    "AO2": 1
+  },
+  {
+    "question_number": "05.5",
+    "question": "The mean ± 2 standard deviations includes over 95% of the data.\nUse this information to consider whether the standard deviations suggest the differences in means are likely to be due to chance.\nExplain your answer, including at least one calculation.",
+    "answer": "1. (Mean ± 2SD) 12.2 to 21.8 and 8.6 to 17.4 OR (Mean ± 2SD) 11.8 to 21.4 and 9(.0) to 17.8 OR (Mean ± 1.96 SD) 12.3 to 21.7 and 8.7 to 17.3 OR (Mean ± 1.96 SD) 11.9 to 21.3 and 9.1 to 17.7;\n2. (SD) overlap so difference (likely to be) due to chance OR (SD) overlap so (likely) no significant difference (in means);",
+    "total_marks": 2,
+    "AO3": 2
+  },
+  {
+    "question_number": "06.1",
+    "question": "Define genome and proteome.",
+    "answer": "(Genome) 1. Complete set of genes in a cell OR (All) the DNA in a cell OR (All) the genes/alleles/genetic material in a cell OR The total number of DNA bases in a cell;\n(Proteome) 2. (Full) range of proteins that a cell can produce OR (Full) range of proteins coded for by the cell's DNA/genome;",
+    "total_marks": 2,
+    "AO1": 2
+  },
+  {
+    "question_number": "06.2",
+    "question": "Consider the accuracy and limitations of the early classification of bacteria using the arrangement of flagella.",
+    "answer": "1. Can not identify/distinguish species;\n2. (Optical) microscope resolution is low;\n3. Flagella (are fragile so) broken/damaged/missing OR Artefacts misinterpreted/mistaken for flagella;\n4. (Flagella) difficult to stain so not visible;\n5. (Flagella) at an angle so not visible;\n6. Not all bacteria have flagella;",
+    "total_marks": 3,
+    "AO3": 3
+  },
+  {
+    "question_number": "06.3",
+    "question": "Suggest why several bacterial species have been renamed in recent years.",
+    "answer": "DNA/mRNA/RNA base sequencing OR Amino acid sequencing OR Use of electron microscopes with greater resolution OR Use of electron microscopes and improved staining/preparation;",
+    "total_marks": 1,
+    "AO1": 1
+  },
+  {
+    "question_number": "06.4",
+    "question": "Figure 6 shows an image from an optical microscope of a single bacterial cell.\nThis bacterial cell is 2.3 µm long (excluding the flagellum).\nCalculate the magnification of this image.",
+    "question_context": "",
+    "answer": "Correct answer of 19 565 (from measurement of 45mm) OR 20 000 (from measurement of 46mm) OR 20 435 (from measurement of 47mm) = 2 marks;;\nAccept for 1 mark, evidence of 45 000 OR 46 000 OR 47 000 (correct image size in µm) OR ÷ 2.3 (correct use of equation);",
+    "total_marks": 2,
+    "AO2": 2
+  },
+  {
+    "question_number": "07.1",
+    "question": "Carbon monoxide (CO) is released during incomplete combustion of fossil fuels.\nFigure 7 shows the dissociation curve for oxyhaemoglobin when:\n• not exposed to CO\n• exposed to CO such that 50% of the oxygen binding sites are occupied by CO (50% COHb).\nUsing Figure 7, what can you conclude about how exposure to CO affects the loading and unloading of oxygen by haemoglobin?",
+    "question_context": "",
+    "answer": "1. Less (oxygen) loaded at high pO2 (compared with no CO) OR Maximum Hb saturation is 50% (oxygen);\n2. (At low pO2) Hb has higher affinity (for oxygen);\n3. Hb has more oxygen at low pO2 OR Hb unloads less oxygen at low pO2;",
+    "total_marks": 3,
+    "AO1": 1,
+    "AO2": 2
+  },
+  {
+    "question_number": "07.2",
+    "question": "The World Health Organisation (WHO) suggests that to avoid long-term health effects, COHb concentrations should be kept below 2.5%.\nWHO recommends that people should not be exposed to:\n• air with > 10 mg m¯³ CO for more than 8 hours\n• air with > 30 mg m³ CO for more than 1 hour.\nScientists have used a mathematical model to calculate the exposure to carbon monoxide that would result in 2.5% COHb in both adults and children.\nTable 2 shows the scientists' results.\nThe scientists suggest that the WHO recommendations for carbon monoxide concentrations resulting in 2.5% COHb should be reduced.\nEvaluate the scientists' conclusion.",
+    "question_context": "",
+    "answer": "(For scientists' suggestion) 1. Children exposed (to CO) for 8 hours;\n(Against scientists' suggestion) 2. Children exposed (to CO) for 1 hour OR Adults exposed (to CO) for 1 hour and 8 hours; (But) 3. Maths model may not be accurate OR Maths model did not use people;\n4. (Recommendation for people) only at rest OR Unknown effects of exercise (on CO uptake);\n5. (People vary in) size/age/ethnicity OR Different sex;\n6. No statistical test to show if differences are significant;\n7. Unknown effects on CO exposure for people with respiratory disease OR Unknown effects on CO exposure for smokers;\n8. Might not be able to reduce CO (concentration) in air below 10(mg m³);",
+    "total_marks": 3,
+    "AO3": 3
+  },
+  {
+    "question_number": "08.1",
+    "question": "Scientists investigated a drug called MiTMAB as a treatment for cancer. MiTMAB inhibits cytokinesis.\nFigure 8 shows drawings of cancer cells seen with an optical microscope from a:\n• sample treated with MiTMAB\n• control sample.\nThe cells in drawing A can be identified as those treated with MiTMAB.\nExplain why.",
+    "question_context": "",
+    "answer": "1. 2 nuclei (in cells) OR Cells (stopped) at telophase;\n2. Cytokinesis prevented OR Stopped (new) cell membrane forming OR Stopped cytoplasm dividing;",
+    "total_marks": 2,
+    "AO3": 2
+  },
+  {
+    "question_number": "08.2",
+    "question": "MiTMAB acts as a non-competitive inhibitor of an enzyme called dynamin.\nSuggest how MiTMAB can cause dynamin to become inactive.",
+    "answer": "1. (MiTMAB) binds (to dynamin) other than the active site;\n2. Changes the shape of (dynamin) active site OR Changes the tertiary structure (of dynamin/ enzyme);\n3. Not complementary so substrate does not bind (to active site) OR Not complementary so no/fewer enzyme- substrate complexes (form);",
+    "total_marks": 3,
+    "AO1": 1,
+    "AO2": 2
+  },
+  {
+    "question_number": "08.3",
+    "question": "When active, dynamin has two functions:\n\n• it stimulates cytokinesis\n• it inhibits cell death.\n\nThe scientists treated actively growing cultures of cancer cells with MiTMAB. They incubated:\n• one sample of 2500 cells without MiTMAB as a control\n• eight samples, each with 2500 cells and a different concentration of MiTMAB.\nAfter 72 hours, the scientists measured the number of cells in each sample.\nFigure 9 shows the scientists' results.\nA negative value for proportion of control growth means that fewer than 2500 cells were counted after 72 hours.\nUse all the information given to explain the results shown in Figure 9.",
+    "question_context": "",
+    "answer": "1. (At) lowest concentrations (all) dynamin is not inhibited OR (At) lowest concentrations (MiTMAB) does not cause cell death/inhibit cytokinesis;\n2. (As MiTMAB) concentration increases more dynamin is inhibited/inactive OR (As MiTMAB) concentration increases cell death increases OR (As MiTMAB) concentration increases cytokinesis decreases OR No change in cell number at 2000 (µg dm-³) OR No change in cell number at 0.0 (on y axis);\n3. (At) highest (MiTMAB) concentrations all dynamin is inhibited OR (At) highest concentrations (MiTMAB) causes cell death OR (At) highest concentrations (MiTMAB) inhibits cytokinesis;",
+    "total_marks": 3,
+    "AO2": 3
+  },
+  {
+    "question_number": "08.4",
+    "question": "0.01 dm³ of MiTMAB solution was added to the treated cells.\nCalculate the increase in mass of MiTMAB (in µg) added to the cells to reduce the cell growth from equal to the control to 0.0 of the control.",
+    "answer": "Correct answer in range 19.3 to 19.7 = 2 marks;;\nAccept for 1 mark evidence of 70 and 2000 (correct readings from the graph) / 30 and 2000 (correct readings from the graph) OR 1930 (correct increase in MiTMAB, 70 to 2000) / 1970 (correct increase in MiTMAB, 30 to 2000) OR Division by 100/multiplication by 0.01 (correct conversion to mass in 0.01 dm³);",
+    "total_marks": 2,
+    "AO2": 2
+  },
+  {
+    "question_number": "09.1",
+    "question": "Dengue fever is a human disease caused by the dengue virus.\nScientists designed an ELISA test to detect antibodies to the dengue virus in a patient's blood sample.\nFigure 10 shows a diagram of this test and some information about how it works.\nSuggest what is on the test at line T and explain what causes the line to appear in a positive test.",
+    "question_context": "",
+    "answer": "1. Antigen (at T and substrate);\n2. Enzyme-substrate complex (produces a line/colour change) OR Enzyme (binds) with substrate (produces line/colour change);",
+    "total_marks": 2,
+    "AO2": 2
+  },
+  {
+    "question_number": "09.2",
+    "question": "A line at C shows that the test has worked.\nSuggest one reason why a line at C shows the test has worked.",
+    "answer": "Blood/sample has moved/diffused (above T in the test);",
+    "total_marks": 1,
+    "AO3": 1
+  },
+  {
+    "question_number": "09.3",
+    "question": "Figure 12 shows a flowchart of how the anti-human antibodies with enzyme attached are produced.\nSuggest why the fused cells allow continuous production of monoclonal antibodies.",
+    "question_context": "",
+    "answer": "1. (Cancer/fused cells) divide/replicate rapidly/uncontrollably;\n2. B cells produce (monoclonal) antibody;",
+    "total_marks": 2,
+    "AO2": 2
+  },
+  {
+    "question_number": "09.4",
+    "question": "Evaluate the ethics of the production process shown in Figure 12.",
+    "answer": "Harmful but not killed OR Harmful but only used once OR Harmful but stops human suffering OR Harmful but produces (useful) medicine/drugs OR Not harmed but injected (with a substance);",
+    "total_marks": 1,
+    "AO3": 1
+  },
+  {
+    "question_number": "09.5",
+    "question": "Early identification of dengue fever can be difficult as many other diseases produce the same symptoms. Early identification is important because people suffering with dengue fever can become ill very quickly and may need hospital treatment.\nScientists compared the effectiveness of three diagnostic tests for dengue fever.\n\n• Laboratory-based test – a patient's blood sample is sent from the doctor's clinic to a laboratory for testing.\n• Current test used in the doctor's clinic.\n• New test to be used in the doctor's clinic – the ELISA test shown in Figures 10 and 11 (on page 24).\n\nThe scientists' results are shown in Table 3.\nA blood sample from each patient with confirmed dengue fever at each time after onset of symptoms was tested with all three diagnostic tests.\nThe scientists recommend that the new test is used for the identification of dengue fever in all countries around the world.\nDiscuss this recommendation. Use all the information given.",
+    "question_context": "",
+    "answer": "1. Better than current at detecting early but not as good as lab-based;\n2. New/current test better than lab-based from 5 days OR New test as good as current from 5 days;\n3. New test and lab-based better total (of) positives than current OR New test total (of) positives not (quite) as good as lab-based;\n4. New test (likely to be) quicker;\n5. New test (likely to be) cheaper;\n6. Limited/inaccessible labs OR Limited training of people to use labs;",
+    "total_marks": 3,
+    "AO3": 3
+  },
+  {
+    "question_number": "09.6",
+    "question": "The dengue virus causes damage to capillaries so that blood proteins move out of the capillaries into the tissue fluid.\nExplain how this would affect the return of tissue fluid into the capillaries.",
+    "answer": "1. Increases water potential of blood/capillary OR Decreases water potential of tissue fluid;\n2. (So) less water returns to blood/capillaries (by osmosis) OR (So) more water leaves blood/capillaries (by osmosis);",
+    "total_marks": 2,
+    "AO2": 2
+  },
+  {
+    "question_number": "10.1",
+    "question": "Describe how a quaternary protein is formed from its monomers.\nDo not include the process of translation in your answer.",
+    "answer": "1. Amino acids joined by peptide bond(s);\n2. (By) condensation reaction(s);\n3. Secondary structure is formed by hydrogen bonding;\n4. Tertiary structure formed by interactions (between R groups);\n5. Quaternary structure contains >1 polypeptide OR Quaternary structure formed by interactions/bonds between polypeptides;",
+    "total_marks": 5,
+    "AO1": 5
+  },
+  {
+    "question_number": "10.2",
+    "question": "Describe the structure of DNA and the structure of a chromosome.",
+    "answer": "1. Polymer of nucleotides;\n2. (Nucleotide) consists of deoxyribose, phosphate and an organic/nitrogenous base;\n3. Phosphodiester bonds (between nucleotides);\n4. DNA double helix held by H bonds OR 2 strands held by H bonds;\n5. (Hydrogen bonds/pairing) between adenine, thymine and cytosine, guanine;\n6. DNA is associated with histones/proteins;\n7. (During mitosis/when visible) chromosome consists of two chromatids joined at a centromere;",
+    "total_marks": 6,
+    "AO1": 6
+  },
+  {
+    "question_number": "10.3",
+    "question": "Mutation can result in an increase in genetic variation within a species.\nDescribe and explain the other processes that result in increases in genetic variation within a species.",
+    "answer": "1. Independent segregation of homologous Chromosomes/pairs;\n2. Crossing over between homologous chromosomes/pairs;\n3. Random fertilisation of gametes;\n4. (Produces) new combinations of alleles;",
+    "total_marks": 4,
+    "AO1": 4
+  }
+]
