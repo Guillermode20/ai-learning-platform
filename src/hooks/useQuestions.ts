@@ -7,7 +7,7 @@ export const useQuestions = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch('/aqabio23.json')
+    fetch('/aqabio23p1.json')
       .then(response => response.json())
       .then(data => setQuestions(data))
       .catch(error => {

@@ -1,123 +1,77 @@
-import { useState } from 'react';
-import { AIService } from './services/aiService';
-import { validateAnswer } from './utils/validation';
-import { QuestionInfo } from './components/QuestionInfo';
-import { Navigation } from './components/Navigation';
-import { Feedback } from './components/Feedback';
-import { useQuestions } from './hooks/useQuestions';
-import { AIResponse } from './types';
+import { Routes, Route, useNavigate } from 'react-router-dom';
+import QuestionMarking from './components/QuestionMarking';
 import './index.css';
 
-function App() {
-  const {
-    currentQuestion,
-    currentQuestionIndex,
-    totalQuestions,
-    isFirstQuestion,
-    isLastQuestion,
-    nextQuestion,
-    previousQuestion,
-    error: loadError
-  } = useQuestions();
+interface Paper {
+  id: string;
+  name: string;
+  year: number;
+}
 
-  const [userAnswer, setUserAnswer] = useState('');
-  const [feedback, setFeedback] = useState<AIResponse | null>(null);
-  const [isMarking, setIsMarking] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+interface Subject {
+  id: string;
+  name: string;
+  papers: Paper[];
+}
 
-  const aiService = new AIService(import.meta.env.VITE_GEMINI_API_KEY);
-
-  const handleMarkAnswer = async () => {
-    if (!currentQuestion) return;
-
-    const validation = validateAnswer(userAnswer, currentQuestion.question);
-    if (!validation.isValid) {
-      setError(validation.error);
-      return;
+function HomePage() {
+  const navigate = useNavigate();
+  
+  const subjects: Subject[] = [
+    {
+      id: 'biology',
+      name: 'Biology',
+      papers: [
+        {
+          id: 'aqabio23p1',
+          name: 'AQA Paper 1',
+          year: 2023
+        }
+      ]
+    },
+    {
+      id: 'chemistry',
+      name: 'Chemistry',
+      papers: []
     }
-
-    setIsMarking(true);
-    setError(null);
-
-    try {
-      const result = await aiService.markAnswer(currentQuestion, userAnswer);
-      setFeedback(result);
-    } catch (error) {
-      console.error('Error marking answer:', error);
-      setError(error instanceof Error ? error.message : 'Error marking answer');
-    } finally {
-      setIsMarking(false);
-    }
-  };
-
-  const handleNextQuestion = () => {
-    nextQuestion();
-    setUserAnswer('');
-    setFeedback(null);
-    setError(null);
-  };
-
-  const handlePreviousQuestion = () => {
-    previousQuestion();
-    setUserAnswer('');
-    setFeedback(null);
-    setError(null);
-  };
-
-  if (loadError) {
-    return (
-      <div className="container">
-        <h1>{loadError}</h1>
-      </div>
-    );
-  }
-
-  if (!currentQuestion) {
-    return (
-      <div className="container">
-        <h1>Loading questions...</h1>
-      </div>
-    );
-  }
+  ];
 
   return (
-    <div className="container">
-      <QuestionInfo
-        question={currentQuestion}
-        currentIndex={currentQuestionIndex}
-        totalQuestions={totalQuestions}
-      />
+    <div className="container p-4 mx-auto">
+      <h1 className="title text-2xl font-bold text-center text-cyan-400 mb-6">Subject Papers</h1>
+      <div className="subject-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        {subjects.map((subject) => (
+          <div key={subject.id} className="subject-card p-4 border border-gray-700 rounded-md bg-gray-800 text-center">
+            <h2 className="text-xl font-semibold text-cyan-400 mb-3">{subject.name}</h2>
+            <div className="papers-list flex flex-col items-center gap-2">
+              {subject.papers.length > 0 ? (
+                subject.papers.map((paper) => (
+                  <button
+                    key={paper.id}
+                    className="paper-button bg-gray-800 hover:bg-gray-700 text-cyan-400 font-bold py-2 px-4 rounded border border-cyan-700 w-full"
+                    onClick={() => navigate(`/paper/${paper.id}`)}
+                  >
+                    {paper.name} ({paper.year})
+                  </button>
+                ))
+              ) : (
+                <p className="text-gray-400">No papers available</p>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
-      <textarea
-        value={userAnswer}
-        onChange={(e) => setUserAnswer(e.target.value)}
-        placeholder="Enter your answer here..."
-        className="answer-input"
-      />
-
-      {error && <div className="error-message">{error}</div>}
-
-      <button
-        onClick={handleMarkAnswer}
-        disabled={isMarking}
-        className="mark-button"
-      >
-        {isMarking ? 'Marking...' : 'Mark Answer'}
-      </button>
-
-      {feedback && (
-        <Feedback
-          feedback={feedback}
-          totalMarks={currentQuestion.total_marks}
-        />
-      )}
-
-      <Navigation
-        onPrevious={handlePreviousQuestion}
-        onNext={handleNextQuestion}
-        isFirstQuestion={isFirstQuestion}
-        isLastQuestion={isLastQuestion}
-      />
+function App() {
+  return (
+    <div className="app-container min-h-screen bg-gray-900 text-gray-200 font-mono pb-8">
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/paper/:paperId" element={<QuestionMarking />} />
+      </Routes>
     </div>
   );
 }
